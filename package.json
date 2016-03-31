@@ -1,0 +1,24 @@
+{
+  "name": "hain-plugin-bing",
+  "version": "1.0.0",
+  "description": "A simple bing search plugin for Hain",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erik-maas/hain-plugin-bing.git"
+  },
+  "keywords": [
+    "hain",
+    "bing",
+    "search",
+    "hain0",
+  ],
+  "author": "Erik Maas",
+  "license": "MIT",
+  "hain": {
+    "prefix": "/b ",
+    "usage": "/b something",
+    "icon": "#fa fa-bold",
+    "redirect": "/b "
+  }
+}
